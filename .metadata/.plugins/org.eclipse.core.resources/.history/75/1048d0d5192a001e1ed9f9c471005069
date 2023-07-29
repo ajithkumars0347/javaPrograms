@@ -1,0 +1,16 @@
+package findGCD;
+
+import java.util.Scanner;
+
+public class GCDApp {
+
+	public static void main(String[] args) {
+	 Scanner scan=new Scanner(System.in);
+	 System.out.println("please,enter two numbers to find the gcd");
+	 int m=scan.nextInt();
+	 int n=scan.nextInt();
+     int res=FindGcd.gcdMethod(m,n);
+     System.out.println("the gcd of "+m+" and "+n+" is "+res);
+	}
+
+}

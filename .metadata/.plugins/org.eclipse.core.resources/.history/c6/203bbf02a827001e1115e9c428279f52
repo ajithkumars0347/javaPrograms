@@ -1,0 +1,33 @@
+package simplePrograms;
+
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+	Scanner scan=new Scanner(System.in);
+	System.out.println("enter one from below option");
+	System.out.println("enter 2 for giving divisible by two");
+	System.out.println("enter 3 for giving divisible by three");
+	System.out.println("enter 5 for giving divisible by five");
+	System.out.println("enter 25 for giving divisible by two and five");
+	int opt=scan.nextInt();
+	switch(opt) {
+	case 2:
+	Solution1 byTwo=new Solution1();
+	byTwo.divisibleByTwo();
+	break;
+	case 3:
+		Solution2 byThree=new Solution2();
+	    byThree.divisibleByThree();
+	    break;
+	case 5:
+		Solution3 byFive=new Solution3();
+	    byFive.divisibleByFive();
+	    break;
+	case 25:
+		Solution4 byTwoAndFive=new Solution4();
+		byTwoAndFive.divisibleBy2And5();
+	    break;
+}
+	}
+}

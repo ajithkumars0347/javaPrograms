@@ -1,0 +1,12 @@
+package com.kodnest.pattern.level7.assignments25patterns;
+
+public class Pattern15 {
+public static void main(String[] args) {
+	for(int i=70;i>=64;i--) {
+		for(int j=65;j<=i;j++) {
+			System.out.println((char)j);
+		}
+		System.out.println();
+	}
+}
+}

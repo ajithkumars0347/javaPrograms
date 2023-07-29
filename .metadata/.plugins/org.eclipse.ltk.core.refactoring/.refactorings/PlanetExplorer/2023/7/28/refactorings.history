@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;planetExplorer.PlanetExplorer&apos; to &apos;PlanetExplorerApp&apos;&#x0D;&#x0A;- Original project: &apos;PlanetExplorer&apos;&#x0D;&#x0A;- Original element: &apos;planetExplorer.PlanetExplorer&apos;&#x0D;&#x0A;- Renamed element: &apos;planetExplorer.PlanetExplorerApp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PlanetExplorer&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;planetExplorer{PlanetExplorer.java[PlanetExplorer" matchStrategy="1" name="PlanetExplorerApp" qualified="false" references="true" similarDeclarations="false" stamp="1688996721419" textual="false" version="1.0"/>
+</session>
