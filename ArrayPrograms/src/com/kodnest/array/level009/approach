@@ -1,0 +1,24 @@
+1--> get the array elements
+
+2--> 
+  make the first element i=0
+  make the second element j=i+1
+  
+  start from 0 go until arr.length-2
+   give the arr[i] to min
+   give the i to pos
+  repeat following statement until j becomes out of bound
+  {
+  if arr[j]<min
+  {
+  then min=arr[j]
+  then 
+  j=j+1
+  }
+  swap arr[i] and arr[pos]
+  then 
+  i=i+1,j=i+1
+  }
+  
+    
+  
